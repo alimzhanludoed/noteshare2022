@@ -9,9 +9,7 @@ export default function CourseCard(props) {
             <div className='container'>
                 <div className="cardcontent">
                     {props.name}
-                    <br />
-                    <br />
-                    <br />
+                    <div className="line"></div>
                     <span className='content'>
                         {props.instructor}
                         <br />
