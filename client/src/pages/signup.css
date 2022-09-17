@@ -1,0 +1,84 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  text-align: center;
+  background: rgb(50, 168, 82);
+}
+
+.signupBackground {
+  background-color: white;
+  height: 42rem;
+  width: 25rem;
+}
+
+.line {
+  margin-top: 2rem;
+  width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: grey;
+  opacity: 50%;
+  height: 0.01rem;
+}
+
+.logo {
+  margin-top: 1rem;
+  width: 75%;
+}
+
+.signupButton {
+  width: 50%;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  background-color: rgb(65, 130, 69);
+  border: 0;
+  border-radius: 2px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.signupButton:hover {
+  background-color: rgb(181, 230, 173);
+}
+
+.signupFields {
+  width: 65%;
+  text-align: center;
+  position: relative;
+  padding: 8px;
+  transition: 0.5s;
+  margin-top: 1rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: green;
+}
+
+.form-select:focus {
+  box-shadow: none;
+  border-color: green;
+}
+
+.loginRedirect {
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  width: auto;
+}
+
+.loginRedirect:hover {
+  color: rgb(65, 130, 69);
+}
+
+.error {
+  height: 1rem;
+  font-size: 0.8rem;
+  color: red;
+}

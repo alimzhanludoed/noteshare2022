@@ -1,0 +1,72 @@
+.confirmation {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  text-align: center;
+  background: rgb(50, 168, 82);
+}
+
+.confirmationBackground {
+  background-color: white;
+  height: 27rem;
+  width: 25rem;
+}
+
+.message {
+  margin-top: 1rem;
+}
+
+.line {
+  margin-top: 2rem;
+  width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: grey;
+  opacity: 50%;
+  height: 0.01rem;
+}
+
+.logo {
+  margin-top: 1rem;
+  width: 75%;
+}
+
+.icon {
+  width: 20%;
+}
+
+.check {
+  margin-top: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.resend {
+  font-size: 0.85rem;
+}
+
+.resend:hover {
+  color: rgb(65, 130, 69);
+  cursor: pointer;
+}
+
+.resend2 {
+  font-size: 0.85rem;
+  /*margin-right: 0.813rem;*/
+}
+
+.resend2:hover {
+  color: rgb(65, 130, 69);
+  cursor: pointer;
+}
+
+.v {
+  background-color: grey;
+  width: 0.1rem;
+  height: 1rem;
+  opacity: 80%;
+}
