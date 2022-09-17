@@ -6,11 +6,7 @@ import Signup from './pages/signup';
 import Confirmation from './pages/confirmation';
 import Forgot from './pages/forgot-password';
 import Account from './pages/account';
-<<<<<<< Updated upstream
 import Home from './pages/home';
-=======
-import Home from './pages/home'
->>>>>>> Stashed changes
 
 function App() {
   return (
