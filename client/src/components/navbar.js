@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <nav className='navbar'>
             <Link to='/home'>
-                <img className='logo' src={Logo} alt='' />
+                <img className='logo' src={Logo} alt='Scribble' />
             </Link>
             <button className='profile'>{username}</button>
         </nav>

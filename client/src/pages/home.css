@@ -4,7 +4,7 @@
 }
 .back {
     width: 90%;
-    background-color: white;
     justify-content: center;
-    border: groove;
+    opacity: transparent;
 }
+
