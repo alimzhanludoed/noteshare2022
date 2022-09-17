@@ -6,6 +6,7 @@ import Signup from './pages/signup';
 import Confirmation from './pages/confirmation';
 import Forgot from './pages/forgot-password';
 import Account from './pages/account';
+import Home from './pages/home';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/confirmation' element={<Confirmation />} />
           <Route path='/forgot-password' element={<Forgot />} />
           <Route path='/account' element={<Account />} />
+          <Route path='/home' element={<Home />} />
         </Routes>
       </Router>
     </div>
