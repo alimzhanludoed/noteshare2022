@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.back {
+    width: 90%;
+    background-color: white;
+    justify-content: center;
+    border: groove;
+}
