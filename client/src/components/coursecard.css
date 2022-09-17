@@ -1,0 +1,35 @@
+.cardbackground {
+    margin: 10px;
+    width: 10rem;
+    height: 15rem;
+    background-image: url('../images/backgd.png');
+    transition: 0.2s;
+}
+
+.cardbackground:hover {
+    margin-top: 0px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+img.courseimage {
+    width: 10rem;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.cardcontent {
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content {
+    font-size: smaller;
+}
