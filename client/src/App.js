@@ -6,7 +6,11 @@ import Signup from './pages/signup';
 import Confirmation from './pages/confirmation';
 import Forgot from './pages/forgot-password';
 import Account from './pages/account';
+<<<<<<< Updated upstream
 import Home from './pages/home';
+=======
+import Home from './pages/home'
+>>>>>>> Stashed changes
 
 function App() {
   return (
@@ -18,6 +22,7 @@ function App() {
           <Route path='/signup' element={<Signup />} />
           <Route path='/confirmation' element={<Confirmation />} />
           <Route path='/forgot-password' element={<Forgot />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/account' element={<Account />} />
           <Route path='/home' element={<Home />} />
         </Routes>
