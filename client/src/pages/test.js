@@ -1,16 +1,19 @@
 import React from 'react';
-import SinglePagePDFViewer from "../components/single-page";
-import samplePDF from "../pdfs/sample.pdf";
 import './test.css'
 import { useParams } from 'react-router-dom';
+import Navbar from '../components/navbar';
 
 export default function Test() {
 
+  const {coursename, section} = useParams();
 
   return (
     <div className="test">
-      <SinglePagePDFViewer pdf={samplePDF} />
-
+      <Navbar />
+      <div className='maindiv'>
+        <h4>{coursename} {section}</h4>
+        <button className='uploadbutton'>Upload</button>
+      </div>
       <hr />
     </div>
   );
