@@ -4,7 +4,6 @@
   margin-top: 5rem;
   margin-bottom: 2rem;
   text-align: center;
-  background: rgb(50, 168, 82);
 }
 
 .signupBackground {
@@ -26,6 +25,10 @@
 .logo {
   margin-top: 1rem;
   width: 75%;
+  margin-top: 0.5rem;
+  transform: scale(1.5);
+  width: 20rem;
+  margin-bottom: -1rem;
 }
 
 .signupButton {

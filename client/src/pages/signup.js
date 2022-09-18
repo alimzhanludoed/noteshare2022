@@ -76,7 +76,7 @@ export default function Signup() {
     return (
         <div className="signup">
             <div className="signupBackground">
-                <img className="logo" alt="IntelliChoice Logo" src={Logo}></img>
+                <img className="mainlogo" alt="IntelliChoice Logo" src={Logo}></img>
                 <div className='row d-flex justify-content-center'>
                     <Form.Control id="first" className="signupFields" type="text" placeholder='First Name' value={first} onChange={e => SetFirst(e.target.value)} /> <br />
                     <div className="error">
@@ -101,9 +101,9 @@ export default function Signup() {
                     </div>
                     <select size="sm" id='role' className="form-select signupFields" aria-label=".form-select-sm example">
                         <option value='0' disabled selected>I am a...</option>
-                        <option value="1">Student</option>
-                        <option value="2">Tutor</option>
-                        <option value="3">Parent/Guardian</option>
+                        {/*<option value="1">Student</option>*/}
+                        <option value="2">Volunteer</option>
+                        {/*<option value="3">Parent/Guardian</option>*/}
                     </select>
                     <div className="error">
                         {role}

@@ -3,8 +3,7 @@ import Logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 
-export default function Navbar() {
-    const username = 'Swastik Agarwala';
+export default function Navbar({ username }) {
     return (
         <nav className='navbar'>
             <Link to='/home'>

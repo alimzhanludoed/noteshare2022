@@ -11,6 +11,17 @@ exports.findAll = (req, res) => {
 };
 
 exports.findOne = async (req, res) => {
+    var course = req.body.course;
+    const link = req.body.link;
+
+    const user = await Doc.findOne({ where: {course: course } }).catch((err) => {
+        console.log(err);
+    });
+
+    if (user) {
+        return res.send("hi");
+    }
+
 };
 
 exports.update = (req, res) => {
