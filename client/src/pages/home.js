@@ -7,7 +7,6 @@ import Logo from '../images/logo.png';
 export default function Home() {
     return (
         <>
-            <Navbar />
             <br />
             <br />
             <br />

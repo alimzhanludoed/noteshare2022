@@ -9,7 +9,7 @@ import Form from 'react-bootstrap/Form';
 
 export var Email = "";
 
-export default function Login() {
+export default function Login( { setNavUser } ) {
     //const { setAuth } = useContext(AuthContext);
     const userRef = useRef();
     //const errRef = useRef();
@@ -24,7 +24,12 @@ export default function Login() {
     const account = useCallback(() => navigate('/account', { replace: true }), [navigate]);
     const cAccount = useCallback(() => navigate('/signup', { replace: true }), [navigate]);
 
-    const login = useCallback(() => navigate('/home', { replace: true }), [navigate]);
+    const login = useCallback(
+            () => {
+                setNavUser(email);
+                return navigate('/home', { replace: true }), [navigate];
+            }
+        );
     //useEffect(() => {
     //    userRef.current.focus();
     //}, [])

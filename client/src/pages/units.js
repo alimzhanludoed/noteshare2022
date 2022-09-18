@@ -13,7 +13,6 @@ export default function Units() {
 
     return (
       <div>
-        <Navbar />
         <div className="test">
           <h1>{coursename}</h1>
           <Table striped bordered hover>

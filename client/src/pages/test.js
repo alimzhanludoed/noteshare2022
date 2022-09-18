@@ -44,7 +44,6 @@ export default function Test() {
 
   return (
     <div className="test">
-      <Navbar />
       <div className='maindiv'>
         <h4>{coursename} {section}</h4>
         <button className='uploadbutton' onClick={uploadPDF}>Upload</button>
