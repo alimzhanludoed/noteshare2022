@@ -5,7 +5,6 @@ import Login from './pages/login';
 import Signup from './pages/signup';
 import Confirmation from './pages/confirmation';
 import Forgot from './pages/forgot-password';
-import Account from './pages/account';
 import Home from './pages/home';
 import Units from './pages/units';
 import Test from './pages/test';
@@ -21,7 +20,6 @@ function App() {
           <Route path='/confirmation' element={<Confirmation />} />
           <Route path='/forgot-password' element={<Forgot />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/account' element={<Account />} />
           <Route path='/home' element={<Home />} />
           <Route path='/units/:coursename' element={<Units />} />
           <Route path='/test/:coursename/:section' element={<Test />} />
