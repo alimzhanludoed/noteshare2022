@@ -9,7 +9,7 @@ export default function Units() {
     const { coursename } = useParams();
 
     return (
-      <>
+      <div>
         <Navbar />
         <div className="test">
           <h1>{coursename}</h1>
@@ -49,7 +49,7 @@ export default function Units() {
             </tbody>
           </Table>
         </div>
-      </>
+      </div>
     );
     }
     
