@@ -2,23 +2,23 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './coursecard.css';
 
-export default function CourseCard(props) {
+export default function CourseCard({ logo, name, instructor, university }) {
     
     let navigate = useNavigate();
 
     return (
         <div className='cardbackground' onClick={
-                () => {navigate('/units/'+props.name);}
+                () => {navigate('/units/'+name,{state: {instructor: instructor}});}
             }>
-            <img className='courseimage' src={props.logo} alt={props.name} />
+            <img className='courseimage' src={logo} alt={name} />
             <div className='container'>
                 <div className="cardcontent">
-                    {props.name}
+                    {name}
                     <div className="line"></div>
                     <span className='content'>
-                        {props.instructor}
+                        {instructor}
                         <br />
-                        {props.university}
+                        {university}
                     </span>
                 </div>
             </div>
