@@ -21,7 +21,9 @@ export default function Test() {
             'Content-Type': 'application/json'
           }
         },
-        )
+        ).catch(function (err) {
+          alert(err)
+        });
     }
   }
 
