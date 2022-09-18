@@ -7,8 +7,7 @@ import Confirmation from './pages/confirmation';
 import Forgot from './pages/forgot-password';
 import Account from './pages/account';
 import Home from './pages/home';
-import Test from './pages/test';
-import Units from './pages/units'
+import Units from './pages/units';
 
 function App() {
   return (
@@ -23,8 +22,8 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/account' element={<Account />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/test' element={<Test />}/>
-          <Route path='/units' element={<Units/>}/>
+          <Route path='/units/:coursename' element={<Units />}>
+          </Route>
         </Routes>
       </Router>
     </div>

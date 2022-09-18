@@ -54,7 +54,7 @@ export default function Login() {
     return (
         <div className="login">
             <div className="loginBackground bg-white">
-                <img className="logo" alt="IntelliChoice Logo" src={Logo}></img>
+                <img className="mainlogo" alt="IntelliChoice Logo" src={Logo}></img>
                 <Form className="row d-flex justify-content-center">
                     <Form.Control id="email" className="loginFields" type="text" ref={userRef} placeholder='Email' value={email} onChange={e => SetEmail(e.target.value)} required />  <br />
                     <Form.Control id="password" className="loginFields" type="password" placeholder='Password' value={password} onChange={e => SetPassword(e.target.value)} required /> <div className='break'/>
